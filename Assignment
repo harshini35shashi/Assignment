@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshini S - Student Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA; /* Lavender */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 80%;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .sidebar {
+            background: #DB7093; /* Pale Violet Red */
+            padding: 20px;
+            border-radius: 15px;
+            color: white;
+            text-align: center;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .section {
+            background: #DDA0DD; /* Plum */
+            padding: 15px;
+            border-radius: 10px;
+            color: #333;
+        }
+        .section h2 {
+            color: #4B0082; /* Indigo */
+        }
+        .contact {
+            background: #B0C4DE; /* Steel Blue */
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Harshini S</h1>
+            <p>BTech IT Student</p>
+            <p>Sri Krishna College of Engineering and Technology</p>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2>About Me</h2>
+                <p>I am passionate about technology and constantly strive to expand my knowledge in various domains. My key interests lie in software development, web technologies, and problem-solving. I enjoy working on projects that challenge my abilities and allow me to create innovative solutions.</p>
+                <p>In addition to coding, I am an active participant in technical hackathons, where I enhance my skills by collaborating with peers and solving real-world problems. I also love listening to tech-related podcasts to stay updated on industry trends.</p>
+            </div>
+            <div class="section">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>Infosys Certification</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Hackathons & Experience</h2>
+                <ul>
+                    <li>Participated in various technical hackathons</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <p>Email: your.email@example.com</p>
+                <p>LinkedIn: linkedin.com/in/harshini-s</p>
+                <p>GitHub: github.com/harshini-s</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
